@@ -1,0 +1,9 @@
+data
+cache
+weights/
+logs/
+outputs
+plots/
+*.txt
+*.t7
+*.mat
