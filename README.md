@@ -43,6 +43,9 @@ We emperically showed that LCNN can offer accuracy improvements over CNN when fe
 ### Install LCNN
 This source code only contains the training code of LCNN, and *does not* contain the fast inference code. With this source code, you can train LCNN models and count the number of `FLOP`s.
 
+##### Alternative implementation
+Ildoo Kim has re-implemented LCNN in tensorflow. If you are more comfortable with tensorflow, please see [tf-lcnn](https://github.com/ildoonet/tf-lcnn).
+
 ##### Requirements
 This source code is based on [torch's sample code for multi-gpu programming](https://github.com/soumith/imagenet-multiGPU.torch). The package requirements are all the same:
 - [Install torch on a machine with CUDA GPU](http://torch.ch/docs/getting-started.html#_)
