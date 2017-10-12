@@ -1,4 +1,3 @@
-debugger = require 'fb.debugger'
 require 'torch'
 require 'cutorch'
 require 'paths'
